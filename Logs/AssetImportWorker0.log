@@ -1,0 +1,704 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet" at "2026-10-28T00:52:07.6987922Z"
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 23924 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-28T00:52:07Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\hub\editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/xampp/htdocs/Ball-Puzzle-Platformer-2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59114
+-licensingIpc
+LicenseClient-lizet
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/xampp/htdocs/Ball-Puzzle-Platformer-2D
+D:/xampp/htdocs/Ball-Puzzle-Platformer-2D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [14636]  Target information:
+
+Player connection [14636]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 179458467 [EditorId] 179458467 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GBHAP3B8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [14636] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14636] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path D:/Unity/hub/editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/xampp/htdocs/Ball-Puzzle-Platformer-2D/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   NVIDIA
+    VRAM:     2981 MB
+    Driver:   32.0.15.8183
+Initialize mono
+Mono path[0] = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/hub/editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002172 seconds.
+- Loaded All Assemblies, in  0.662 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              8923806728574910916bd5bd6f42118c
+  Correlation Id:          7822e2521172736cae2f4423373d05d0
+  External correlation Id: 9158586068217224836
+  Machine Id:              A8U3uonDlIeAfMhGjjTmCiNkNEI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lizet" (connect: 0.00s, validation: 0.00s, handshake: 1.78s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet-notifications" at "2026-10-28T00:52:09.4781221Z"
+[Licensing::Module] Licensing Background thread has ended after 1.78s
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.631 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (287ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (242ms)
+				TypeCache.ScanAssembly (222ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (69ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (268ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4674068263016-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.404 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (16ms)
+		LoadAssemblies (220ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (494ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (30.5 KB). Loaded Objects now: 685.
+Memory consumption went from 63.7 MB to 63.6 MB.
+Total: 5.724700 ms (FindLiveObjects: 0.072000 ms CreateObjectMapping: 0.012200 ms MarkObjects: 5.538800 ms  DeleteObjects: 0.100700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 865.823759 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/CanvasSizeFix.cs
+  artifactKey: Guid(1b41c5ef7ca2459458e85c2de8e0cbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/CanvasSizeFix.cs using Guid(1b41c5ef7ca2459458e85c2de8e0cbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e3bd1a802fcbf9083a66398f92c8c5c') in 0.1091364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/wood-1-break-1.prefab
+  artifactKey: Guid(4c7db4606b5587241bbec6e56b7fb5e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/wood-1-break-1.prefab using Guid(4c7db4606b5587241bbec6e56b7fb5e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9f967cafc4d07d4d0f0759ce058b735') in 0.0236436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/sphere -explode 1.prefab
+  artifactKey: Guid(9da1ab1e88d5ad4478078023cf60e856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/sphere -explode 1.prefab using Guid(9da1ab1e88d5ad4478078023cf60e856) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c1102e0918e8243ad481e2208806280') in 0.0086533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-1.prefab
+  artifactKey: Guid(029113cee57578542af9d933446b6f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-1.prefab using Guid(029113cee57578542af9d933446b6f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c02bab5d8b2c670cc3d434a7eabad6d') in 0.0245886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 2.png
+  artifactKey: Guid(ae372bb1f497ae24bbe6685d77442036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 2.png using Guid(ae372bb1f497ae24bbe6685d77442036) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4620794ad389b629fa0410e8368e13c') in 0.070429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (1).png
+  artifactKey: Guid(229ae3faf7671ce47a0165e87974a441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (1).png using Guid(229ae3faf7671ce47a0165e87974a441) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11d496d0e95375d86eb2f9bdcc205beb') in 0.0117533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 10.png
+  artifactKey: Guid(e8d5aa600ba1b9d48852e399df48f378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 10.png using Guid(e8d5aa600ba1b9d48852e399df48f378) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36d0764418da580a9e24dbb61a6c87b8') in 0.0121044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/reticle-red (8).png
+  artifactKey: Guid(57047b33ab7147947b5afad0abb33cd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/reticle-red (8).png using Guid(57047b33ab7147947b5afad0abb33cd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02dee8256f57c3c88179447ec09539d5') in 0.0103771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Platform-1.prefab
+  artifactKey: Guid(75abc16fd292d4e4cb6d69051692007d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Platform-1.prefab using Guid(75abc16fd292d4e4cb6d69051692007d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b07a18fdd53116bb7d79532c4f7f5d6') in 0.0115187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/Input/InputControl.cs
+  artifactKey: Guid(13a1488024e99044e8a6da7151a39600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Input/InputControl.cs using Guid(13a1488024e99044e8a6da7151a39600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c7943bc894f9a890d2e57588e38a89f') in 0.0047747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Circle1.png
+  artifactKey: Guid(1eee1a13b070f71429bef6937ac6a1af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Circle1.png using Guid(1eee1a13b070f71429bef6937ac6a1af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '992f62602a2b38e350b6ed1917a1eaad') in 0.0105014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-3.prefab
+  artifactKey: Guid(cc5b3ffd349c92940a4dec362208a40f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-3.prefab using Guid(cc5b3ffd349c92940a4dec362208a40f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11c3ec91daa98bbea5ec583fabcf1f3b') in 0.0200815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 112
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-3.prefab
+  artifactKey: Guid(25a028830d7982447a04876afc2f5029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-3.prefab using Guid(25a028830d7982447a04876afc2f5029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd1bdf06c7574bc7691085abe7c7516a') in 0.0274435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/MainMenuUI.cs
+  artifactKey: Guid(84c06e54ccf248d4a9327bbde5da97d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/MainMenuUI.cs using Guid(84c06e54ccf248d4a9327bbde5da97d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5945ffbe0032578a280c3407bf3e48d') in 0.0034753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects
+  artifactKey: Guid(96e659680c92939419d85f6ba9c021f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects using Guid(96e659680c92939419d85f6ba9c021f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '16a6a6db96a5569bf956332ab6736c85') in 0.0043079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/UISystem.cs
+  artifactKey: Guid(ebc11aca80b60a444bde503c2654de92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/UISystem.cs using Guid(ebc11aca80b60a444bde503c2654de92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e27366f632a858b736ea1b9c3a3c4f0') in 0.0037723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 3.mat
+  artifactKey: Guid(ed524d1186d8ba2409214ddfaeb9c470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 3.mat using Guid(ed524d1186d8ba2409214ddfaeb9c470) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '625aa1bc74066941b7b93986ba65c033') in 0.1101552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts
+  artifactKey: Guid(d22872c20037eda4193d4bc5eb497fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts using Guid(d22872c20037eda4193d4bc5eb497fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7db06a45ebcf2029fe35474fc2981748') in 0.0029382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scenes
+  artifactKey: Guid(2c1981f58bd2faa4fbd9d052a7926bdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scenes using Guid(2c1981f58bd2faa4fbd9d052a7926bdb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4ca2c941c54dd0c873de59af446a4eb') in 0.0037435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/ScriptableObjects/Level.cs
+  artifactKey: Guid(3c297fe5b474f6e49b5c781e0d58f021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/ScriptableObjects/Level.cs using Guid(3c297fe5b474f6e49b5c781e0d58f021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49a3f61ee3045d7021b8d5cbffc8b1b0') in 0.003262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/UIData.cs
+  artifactKey: Guid(04db3c0f1d5af7f48831b1957acf484b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/UIData.cs using Guid(04db3c0f1d5af7f48831b1957acf484b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '815cb98cf55d4f91aa118afdcb67f635') in 0.0040568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay
+  artifactKey: Guid(496e3cd7eb3d6ff4a9be4ec2d28248d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay using Guid(496e3cd7eb3d6ff4a9be4ec2d28248d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2e397c5b43452d1fee7b1df774cd5ad') in 0.0036202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI
+  artifactKey: Guid(14d0d48721b4d4c4d9371d68ebac4830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI using Guid(14d0d48721b4d4c4d9371d68ebac4830) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2596a3305b53193842c29ff22c789ff1') in 0.0053641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-2.prefab
+  artifactKey: Guid(a1b743014f7c23649a52016c3079f1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-2.prefab using Guid(a1b743014f7c23649a52016c3079f1ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef9f5f53b2da0fcdae625a7313fac79d') in 0.0120561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-2.png
+  artifactKey: Guid(38a094144aaf4d542a7d56f26508d72c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-2.png using Guid(38a094144aaf4d542a7d56f26508d72c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3ba7d577187ac53a5e419c1d5eef01d') in 0.0110027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/Effect_Connection-1.prefab
+  artifactKey: Guid(2e495ef60c48dc1488f60926295c18c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/Effect_Connection-1.prefab using Guid(2e495ef60c48dc1488f60926295c18c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b10b04501cc0bb540af190bed61e89ca') in 0.0754492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Documentation.pdf
+  artifactKey: Guid(51884bfd259bc8d4c83ef577c9a181ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Documentation.pdf using Guid(51884bfd259bc8d4c83ef577c9a181ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8ba2e85f80eb5904f5c3c7d8087e266') in 0.0034379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Background.cs
+  artifactKey: Guid(d727aacd9958f9849b85826b187b1a8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Background.cs using Guid(d727aacd9958f9849b85826b187b1a8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '174801f62eda2a524ccaff4c909d24b8') in 0.0042365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Spark3.png
+  artifactKey: Guid(8ae33856bbc1a75498fae2f68e2920cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Spark3.png using Guid(8ae33856bbc1a75498fae2f68e2920cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd67983f1b66dd841caccf258697cf28d') in 0.0118199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 23.png
+  artifactKey: Guid(0a72fe20da952254ba9c502f76fd18c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 23.png using Guid(0a72fe20da952254ba9c502f76fd18c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc976a66a366ccffae7eef746da7d0f8') in 0.0108476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 3.asset
+  artifactKey: Guid(27e8372fb599bef4ba0fac391dd2ce5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 3.asset using Guid(27e8372fb599bef4ba0fac391dd2ce5c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23331fe94f9102368ea31a086be462e9') in 0.0044014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements
+  artifactKey: Guid(446da29d5a6bf354bbcdac0eb92e76e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements using Guid(446da29d5a6bf354bbcdac0eb92e76e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59bd52bd8dbddf23fe5dcc6f19bb28ee') in 0.0031303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110653 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Speed-PowerUp.prefab
+  artifactKey: Guid(198c1ac96f9824242984ae2a561f7fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Speed-PowerUp.prefab using Guid(198c1ac96f9824242984ae2a561f7fb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97d0c90bb0a1e3f75cfb2fffd00493bd') in 0.009049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Sphere.cs
+  artifactKey: Guid(955f2d162b1ccf34b9a308e32cb662d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Sphere.cs using Guid(955f2d162b1ccf34b9a308e32cb662d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f186d459884b7535697fe658c7c53793') in 0.0040265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/ground-floor.prefab
+  artifactKey: Guid(120c5b7f9530e714e8736f0e2789426f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/ground-floor.prefab using Guid(120c5b7f9530e714e8736f0e2789426f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb00a1d85926bc101000fd5fee7a0f6') in 0.0078004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/LowFriction.physicsMaterial2D
+  artifactKey: Guid(002d232b07962fb4da22070e60489799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/LowFriction.physicsMaterial2D using Guid(002d232b07962fb4da22070e60489799) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '050a9457412fff2203a0595ab1c30de5') in 0.0050537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 8.asset
+  artifactKey: Guid(0dd046b9c11e19249a89592bb3fb9b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 8.asset using Guid(0dd046b9c11e19249a89592bb3fb9b2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ded8aa4507704c9ebc28185ccb084bcf') in 0.0045834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/UI/win-ui.prefab
+  artifactKey: Guid(57e4794a23963e3498317d91de0f8be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/UI/win-ui.prefab using Guid(57e4794a23963e3498317d91de0f8be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25f6a17cdcdf21b3b3dc1913d4a70c15') in 0.0064238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials
+  artifactKey: Guid(375a06c59710d2940be5edc7fdac81f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials using Guid(375a06c59710d2940be5edc7fdac81f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '089c1a43c71c993bd10346b73dfb732f') in 0.0039683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/frame-1.png
+  artifactKey: Guid(86f4750c1d987114a89d09eb367c1400) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/frame-1.png using Guid(86f4750c1d987114a89d09eb367c1400) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4fb9a65da8b48a756ce720b1aa59de4b') in 0.0108174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/wood-2-break-1.prefab
+  artifactKey: Guid(e25af939290899d42b8bae4aefb84cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/wood-2-break-1.prefab using Guid(e25af939290899d42b8bae4aefb84cfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abcaeaf71abc9a8424d28ae20cc54b35') in 0.0119508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-2.prefab
+  artifactKey: Guid(953ee7c46ee8aee47b94cd9fda8b3236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-2.prefab using Guid(953ee7c46ee8aee47b94cd9fda8b3236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f23abcaf3e6b793ab6e3b68a8ad8a38a') in 0.0123683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 89
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects
+  artifactKey: Guid(ed3d97ef7deca3e42b330d13053c21e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects using Guid(ed3d97ef7deca3e42b330d13053c21e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc4e0183304e6936de1ef8ffee9d89ab') in 0.0030708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-3.png
+  artifactKey: Guid(a9693efeab89e9f4cbbf23998c454ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-3.png using Guid(a9693efeab89e9f4cbbf23998c454ec6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03a98b996bfa16848554b6b47d1ee66c') in 0.01163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 7.png
+  artifactKey: Guid(d6c44746882b2504495706bffb86adc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 7.png using Guid(d6c44746882b2504495706bffb86adc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f5475427dc54ea23cc5a2153514ae0e') in 0.0115221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 4.asset
+  artifactKey: Guid(87352c743089caa42a19e2ad0548dd3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 4.asset using Guid(87352c743089caa42a19e2ad0548dd3d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c31b0a6ae2680d2f0392239dd0a002b8') in 0.004159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick
+  artifactKey: Guid(bb8fa49f2bfff1644984c3bdf6b7b55e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick using Guid(bb8fa49f2bfff1644984c3bdf6b7b55e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49700a173f770a920f05bd422471fea8') in 0.0036815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-10.prefab
+  artifactKey: Guid(6b72a5cfaf6767e4badd51c53bbffcc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-10.prefab using Guid(6b72a5cfaf6767e4badd51c53bbffcc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ab3ceaca328be628589a472e99db342') in 0.0222163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 230
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Grow-PowerUp.prefab
+  artifactKey: Guid(a23ee0aa34662d6459ffe4571b05de50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Grow-PowerUp.prefab using Guid(a23ee0aa34662d6459ffe4571b05de50) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4a979b9b74765d1549065db66471c3f') in 0.0079024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/sphere.png
+  artifactKey: Guid(74e1848aefd333142a8ea00441495a90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/sphere.png using Guid(74e1848aefd333142a8ea00441495a90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0a98886eb25eef245394dfaa2712469') in 0.0104809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Scenes/Scene_1.unity
+  artifactKey: Guid(1bce1d60fd6d65147981f5ce066fc4a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Scenes/Scene_1.unity using Guid(1bce1d60fd6d65147981f5ce066fc4a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b40c8f48eac42a9d8340b64983f29ba4') in 0.0046977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Materials
+  artifactKey: Guid(66b230ccf870fba4fb7b02d584ae6386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials using Guid(66b230ccf870fba4fb7b02d584ae6386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0c6a7300a360b5b77b54a21d46184bd') in 0.0035489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/FinishDoor.prefab
+  artifactKey: Guid(ee117061848390642a1e8eae87888fa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/FinishDoor.prefab using Guid(ee117061848390642a1e8eae87888fa5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12b03a2462c31803d144df3ef9e8318a') in 0.008285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (8).png
+  artifactKey: Guid(3cc61abb4f6cbe3479655974583ca130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (8).png using Guid(3cc61abb4f6cbe3479655974583ca130) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23f077678c91b91d6c78198076bb0b8d') in 0.0117035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.0 KB). Loaded Objects now: 659.
+Memory consumption went from 137.4 MB to 137.4 MB.
+Total: 6.554100 ms (FindLiveObjects: 0.062900 ms CreateObjectMapping: 0.008900 ms MarkObjects: 6.434000 ms  DeleteObjects: 0.046800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.401 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.506 seconds
+Domain Reload Profiling: 907ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (15ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (3ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (507ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.0 KB). Loaded Objects now: 659.
+Memory consumption went from 136.4 MB to 136.4 MB.
+Total: 6.161800 ms (FindLiveObjects: 0.080000 ms CreateObjectMapping: 0.011400 ms MarkObjects: 6.009800 ms  DeleteObjects: 0.059300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
