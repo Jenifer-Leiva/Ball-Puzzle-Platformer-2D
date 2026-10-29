@@ -14,6 +14,7 @@ namespace BallPuzzlePlatformer2D
 
         void Awake()
         {
+            DontDestroyOnLoad(gameObject);
             MainSoundGallery = this;
 
             SoundList = new Dictionary<string, AudioClip>();

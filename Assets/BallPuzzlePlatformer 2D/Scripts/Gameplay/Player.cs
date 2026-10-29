@@ -52,6 +52,7 @@ namespace BallPuzzlePlatformer2D
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f); // Optional: reset Y velocity
                 rb.AddForce(Vector2.up * m_JumpForce, ForceMode2D.Impulse);
                 m_CanJump = false;
+                SoundGallery.PlaySound("Jump");
             }
             // if (InputControl.m_Main.m_MobileControl)
             // {

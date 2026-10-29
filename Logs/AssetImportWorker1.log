@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'es' Physical Memory: 23924 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet" at "2026-10-28T00:52:07.7194993Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet" at "2026-10-29T15:05:55.4817037Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-10-28T00:52:07Z
+Date: 2026-10-29T15:05:55Z
 
 COMMAND LINE ARGUMENTS:
 D:\Unity\hub\editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/xampp/htdocs/Ball-Puzzle-Platformer-2D
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59114
+63087
 -licensingIpc
 LicenseClient-lizet
 -job-worker-count
@@ -67,12 +67,12 @@ D:/xampp/htdocs/Ball-Puzzle-Platformer-2D
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [9040]  Target information:
+Player connection [6840]  Target information:
 
-Player connection [9040]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 4054306049 [EditorId] 4054306049 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GBHAP3B8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [6840]  * "[IP] 192.168.1.13 [Port] 0 [Flags] 2 [Guid] 1393303685 [EditorId] 1393303685 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-GBHAP3B8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [9040] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [9040] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6840] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6840] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -100,53 +100,53 @@ Initialize mono
 Mono path[0] = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/hub/editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/hub/editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002214 seconds.
-- Loaded All Assemblies, in  0.702 seconds
+Registered in 0.002821 seconds.
+- Loaded All Assemblies, in  0.725 seconds
 Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              9e69ca5874654d45aad0b25b0bd68e13
-  Correlation Id:          7822e2521172736cae2f4423373d05d0
-  External correlation Id: 1672502319909138615
+  Session Id:              f09fa70812c149aa9cfc8b334480d1c2
+  Correlation Id:          37178da0b00b7b9e59d1070ea53659cb
+  External correlation Id: 4711024560855042705
   Machine Id:              A8U3uonDlIeAfMhGjjTmCiNkNEI=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lizet" (connect: 0.00s, validation: 0.00s, handshake: 1.74s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet-notifications" at "2026-10-28T00:52:09.4579737Z"
-[Licensing::Module] Licensing Background thread has ended after 1.74s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lizet" (connect: 0.00s, validation: 0.01s, handshake: 1.72s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lizet-notifications" at "2026-10-29T15:05:57.2075716Z"
+[Licensing::Module] Licensing Background thread has ended after 1.73s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.618 seconds
-Domain Reload Profiling: 1319ms
-	BeginReloadAssembly (286ms)
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1362ms
+	BeginReloadAssembly (263ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (277ms)
-		LoadAssemblies (285ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (262ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (273ms)
-			TypeCache.Refresh (271ms)
-				TypeCache.ScanAssembly (252ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (299ms)
+				TypeCache.ScanAssembly (275ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (618ms)
+	FinalizeReload (638ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (583ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (77ms)
+			InitializePlatformSupportModulesInManaged (75ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (162ms)
-			ProcessInitializeOnLoadAttributes (238ms)
-			ProcessInitializeOnLoadMethodAttributes (83ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -161,41 +161,41 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.399 seconds
+- Loaded All Assemblies, in  0.437 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.496 seconds
-Domain Reload Profiling: 895ms
-	BeginReloadAssembly (300ms)
+- Finished resetting the current domain, in  0.511 seconds
+Domain Reload Profiling: 948ms
+	BeginReloadAssembly (309ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (16ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
 		LoadAssemblies (209ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (11ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (2ms)
-			BuildScriptInfoCaches (1ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (496ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (9ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (512ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (365ms)
+		SetupLoadedEditorAssemblies (379ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (134ms)
-			ProcessInitializeOnLoadAttributes (174ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
@@ -203,675 +203,220 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 second
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 94 unused Assets / (30.9 KB). Loaded Objects now: 685.
-Memory consumption went from 63.6 MB to 63.6 MB.
-Total: 5.381700 ms (FindLiveObjects: 0.061500 ms CreateObjectMapping: 0.011400 ms MarkObjects: 5.199700 ms  DeleteObjects: 0.107800 ms)
+Unloading 445 unused Assets / (71.7 KB). Loaded Objects now: 1040.
+Memory consumption went from 138.6 MB to 138.6 MB.
+Total: 5.521000 ms (FindLiveObjects: 0.116300 ms CreateObjectMapping: 0.028600 ms MarkObjects: 5.163700 ms  DeleteObjects: 0.210800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 865.864590 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/ScriptableObjects/DataStorage.cs
-  artifactKey: Guid(d776e19815b1bd84a9c8d7671248b55c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/ScriptableObjects/DataStorage.cs using Guid(d776e19815b1bd84a9c8d7671248b55c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7217873f6977405f3d4929f665f1a96e') in 0.1217205 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Contents.asset
-  artifactKey: Guid(0595c63477c299d499fd1d72c22fabd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Contents.asset using Guid(0595c63477c299d499fd1d72c22fabd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c0f5ffb34836e7de86dd7cd12d968c5') in 0.0075681 seconds
+  Time since last request: 117276.311152 seconds.
+  path: Assets/_Recovery
+  artifactKey: Guid(a73a1f95880b4f74d952190cdc18ef9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery using Guid(a73a1f95880b4f74d952190cdc18ef9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e45f799540d324b35d676cca1b18f2f') in 0.0666709 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/rock-1.prefab
-  artifactKey: Guid(bfbf360b84eb71d47a8305715bf24c2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/rock-1.prefab using Guid(bfbf360b84eb71d47a8305715bf24c2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'af8747e3ebaa07e86619f66046ac0377') in 0.0602855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 5.asset
-  artifactKey: Guid(5633cf89d758ba0498f2c9b9114dfc14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 5.asset using Guid(5633cf89d758ba0498f2c9b9114dfc14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'edc00d8fc56ad16a0e91f2350892bdd9') in 0.0040682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-6.prefab
-  artifactKey: Guid(195bc43fd0fe0fb44a6101dafcd3f45a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-6.prefab using Guid(195bc43fd0fe0fb44a6101dafcd3f45a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db5f13c86b08c4c04241cf31e0894719') in 0.0337638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 184
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay
-  artifactKey: Guid(a15df17af3fa1b541ac9f5b932b7cba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay using Guid(a15df17af3fa1b541ac9f5b932b7cba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3fef27544630a97537d8c8b1f0941eed') in 0.0039671 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-1.png
-  artifactKey: Guid(4a96177689f2a9448b433dc75e3d5992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-1.png using Guid(4a96177689f2a9448b433dc75e3d5992) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd4d02c1a615448ea38a23b84f8fdaa6') in 0.0549723 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/UI/InputControl.prefab
-  artifactKey: Guid(06236c890212f0b4cbe421f91d810021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/UI/InputControl.prefab using Guid(06236c890212f0b4cbe421f91d810021) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2447d0322dcebc4ecabf9669efde695') in 0.0055986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Spark1.png
-  artifactKey: Guid(6811c1bf24984c24485a63f91e726bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Spark1.png using Guid(6811c1bf24984c24485a63f91e726bc5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9245e52b3126ead3c71bb78c8d333cb') in 0.0131809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/WinUI.cs
-  artifactKey: Guid(903ffed81e610e843895bbe68530c954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/WinUI.cs using Guid(903ffed81e610e843895bbe68530c954) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2333a8720dd4a4d2445f5c5ea5c1d204') in 0.0034362 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000113 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-8.prefab
-  artifactKey: Guid(bff2fc9c17c91f447b79ab5e7337ebe5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-8.prefab using Guid(bff2fc9c17c91f447b79ab5e7337ebe5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bab101a4eebe2abdf8d380328cc6370') in 0.0198615 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 187
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/Ground.physicsMaterial2D
-  artifactKey: Guid(bc0b934c58f7805429c588ee99237a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/Ground.physicsMaterial2D using Guid(bc0b934c58f7805429c588ee99237a21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f510f8b61175cb92282b8de0d9ba611e') in 0.0052496 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Block-1.prefab
-  artifactKey: Guid(f537d1d4ea21c944789b171aa6db71bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Block-1.prefab using Guid(f537d1d4ea21c944789b171aa6db71bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '866ade343fd47531b6d36e6ce82a95e2') in 0.0074592 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 7.asset
-  artifactKey: Guid(5b6f8484286ec07408b6e691bbeb8fc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 7.asset using Guid(5b6f8484286ec07408b6e691bbeb8fc9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '312209d6358a5a896141d8df11896581') in 0.0048911 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-1.prefab
-  artifactKey: Guid(5e1a6e9ddbafd834bb6dbd2bd7d8a56a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/wood-1.prefab using Guid(5e1a6e9ddbafd834bb6dbd2bd7d8a56a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c43f06944c8dfa88e81ac321ad2227cc') in 0.0098902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/CameraFollow.cs
-  artifactKey: Guid(fd5b06cdd199eb44ca27fecc82cf1a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/CameraFollow.cs using Guid(fd5b06cdd199eb44ca27fecc82cf1a8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1831f73f483071b2c24d42d74d1aa5af') in 0.0033277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/ground-3.prefab
-  artifactKey: Guid(ac65e6f5296a9e948bb58ae0cde6d170) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/ground-3.prefab using Guid(ac65e6f5296a9e948bb58ae0cde6d170) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b2763a70b2e75b4e07152aa8d8795d9') in 0.0131589 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Players
-  artifactKey: Guid(080d1670a32715745a1ac996e24704e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Players using Guid(080d1670a32715745a1ac996e24704e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'addd694272e07adb1858639af6d6a1ae') in 0.0035004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Player.cs
-  artifactKey: Guid(d307dcfd6d3dc5445b7bd6ade8268b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/Player.cs using Guid(d307dcfd6d3dc5445b7bd6ade8268b23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6c344db0b3229bef3fe887a27022366') in 0.0036294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 4.png
-  artifactKey: Guid(1e37656942fb08f4a9a61b008f9c966c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 4.png using Guid(1e37656942fb08f4a9a61b008f9c966c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f83b27aa10b5c212e263ffb3f81105e6') in 0.0105624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Shrink-PowerUp.prefab
-  artifactKey: Guid(1e766fa79ac9a534180151c5b55ad18a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/Shrink-PowerUp.prefab using Guid(1e766fa79ac9a534180151c5b55ad18a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd806ed8d27e6e368a167058dbbf74ac4') in 0.0083322 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels
-  artifactKey: Guid(4ea9f3a53f67cf8439517f250bee6375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels using Guid(4ea9f3a53f67cf8439517f250bee6375) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c4e9957deb2bf7664c3f4bca1745d31') in 0.0035555 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Square.png
-  artifactKey: Guid(aee55f83d0036bb4289d3b18797ec9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Square.png using Guid(aee55f83d0036bb4289d3b18797ec9a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c35b303712e29fb676719129a1ccaca6') in 0.0100011 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/SoundGallery.cs
-  artifactKey: Guid(baacdc0826efad04a88cf80d42fcf768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/SoundGallery.cs using Guid(baacdc0826efad04a88cf80d42fcf768) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca38eb91dc5508410afeea748af220be') in 0.004538 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 5.png
-  artifactKey: Guid(54c9749252ece70499f42f460306445a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 5.png using Guid(54c9749252ece70499f42f460306445a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4ba8475e49eadd099a21c9bdd87de0f') in 0.0099776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 1.asset
-  artifactKey: Guid(7678d2047e5145044a4aaa12fa608d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 1.asset using Guid(7678d2047e5145044a4aaa12fa608d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b619076611e4b1eaa924b24b5da9111') in 0.0043287 seconds
+  path: Assets/_Recovery/0.unity
+  artifactKey: Guid(5c1a6aaa600930e47ba788fd9cf644cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/_Recovery/0.unity using Guid(5c1a6aaa600930e47ba788fd9cf644cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e84c7a466caadbf16b03a35b5709f2d') in 0.0273546 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 10.asset
-  artifactKey: Guid(5802e337e3b2177409a271e660e8db25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 10.asset using Guid(5802e337e3b2177409a271e660e8db25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0735f8d85c0b91e8f8867f795235a8b9') in 0.0041437 seconds
+  Time since last request: 1000.014411 seconds.
+  path: Assets/BallPuzzlePlatformer 2D/Audio/jump.mp3
+  artifactKey: Guid(22774734399728b45beb89bc45d86a36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/BallPuzzlePlatformer 2D/Audio/jump.mp3 using Guid(22774734399728b45beb89bc45d86a36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21b13383a3eec56611ed60686a634e54') in 0.0787395 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/JumpPad.cs
-  artifactKey: Guid(d6a7fe0cca4cb4140b1bebcb2f7a26bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/JumpPad.cs using Guid(d6a7fe0cca4cb4140b1bebcb2f7a26bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '564be9170cf9a11c822cfc1cfad98537') in 0.0034881 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/particle-smoke-1.png
-  artifactKey: Guid(285b00fdd7d324846a0fb23ec28edcf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/particle-smoke-1.png using Guid(285b00fdd7d324846a0fb23ec28edcf4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24d4600f4c233101f6cc0463cfd5b5a7') in 0.0119825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/PowerUp.cs
-  artifactKey: Guid(14f0333d5adaf8642ae639fe93af38b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/PowerUp.cs using Guid(14f0333d5adaf8642ae639fe93af38b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0703108c11232da7df679a58e9ac55fc') in 0.004105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/tree-1.prefab
-  artifactKey: Guid(bf963baaeb61a5b419e2c0b02615defe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/tree-1.prefab using Guid(bf963baaeb61a5b419e2c0b02615defe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d608c2f03d446084708a8d1e163288b') in 0.0106694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (7).png
-  artifactKey: Guid(8390182d8bb45db40a52c2eeb31c26f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/UI/button (7).png using Guid(8390182d8bb45db40a52c2eeb31c26f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76a5579dd490832626b1d7797891fd10') in 0.0106508 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-1.png
-  artifactKey: Guid(4066584d5a7538f428b282853015efea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-1.png using Guid(4066584d5a7538f428b282853015efea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7cb07e33687e9c2e2067896ee94ff13f') in 0.0100418 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 2.mat
-  artifactKey: Guid(46f5073cbd5d2a848bb986f1d483833b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 2.mat using Guid(46f5073cbd5d2a848bb986f1d483833b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '766ae7b73177d49f63d7cd0260cfdbbc') in 0.0143803 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 12.png
-  artifactKey: Guid(1872bb59ebaa2ed4ca4dc575c49d8984) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 12.png using Guid(1872bb59ebaa2ed4ca4dc575c49d8984) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2bcd26344969c5150bdf6a1614f9a6c8') in 0.0116287 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 1.mat
-  artifactKey: Guid(a53c29a984375ee42bafa829cdf9fd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/mat-particle-1 1.mat using Guid(a53c29a984375ee42bafa829cdf9fd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53126f46145f97933da156270b8b1f7d') in 0.0073852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/FloorButton.cs
-  artifactKey: Guid(808f8d8c04858e04b87d1c882ac52b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/FloorButton.cs using Guid(808f8d8c04858e04b87d1c882ac52b6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a914562158bf598871ffc012715a4c9') in 0.0035221 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/FallDetector.prefab
-  artifactKey: Guid(33e8155a99c76514c99bf9cac8b18214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/FallDetector.prefab using Guid(33e8155a99c76514c99bf9cac8b18214) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86aaf07619ebf569a78a7b87e88ecb04') in 0.0088371 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Square1.png
-  artifactKey: Guid(a519ce7a8183faa47bdcbb319d6be4fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Square1.png using Guid(a519ce7a8183faa47bdcbb319d6be4fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfa27f7bebbb9814789b9d6b03e91707') in 0.0123363 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/UI/game-ui.prefab
-  artifactKey: Guid(b776be727cb3d18428f16b54cf4e2b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/UI/game-ui.prefab using Guid(b776be727cb3d18428f16b54cf4e2b70) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2db80390b116283540a7279f9cde5059') in 0.007257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 9.asset
-  artifactKey: Guid(6e87b68bf91fffe4a8cb518f4959b181) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 9.asset using Guid(6e87b68bf91fffe4a8cb518f4959b181) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6356f8c9b4cec12a0cb0183e6db936b3') in 0.0052386 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/box-1-break-1.prefab
-  artifactKey: Guid(7bf5f128b679d4c45a801095d1239ae5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/box-1-break-1.prefab using Guid(7bf5f128b679d4c45a801095d1239ae5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10f21307306c9008a3b4e258f9225b47') in 0.0066321 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-3.png
-  artifactKey: Guid(8044f17e01b555746b1e821df26878f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/ground-3.png using Guid(8044f17e01b555746b1e821df26878f5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ee15f1f6830074154204acbf84923d2') in 0.0125622 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.111358 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/ground-2.prefab
-  artifactKey: Guid(f098610869fe52947937916db1b9dea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/ground-2.prefab using Guid(f098610869fe52947937916db1b9dea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '721fc1295b78df1ceb4c63dccfedd68b') in 0.0088554 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/BladeRotate.cs
-  artifactKey: Guid(aece7df02e43e6749b4a437b218671e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/BladeRotate.cs using Guid(aece7df02e43e6749b4a437b218671e4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50e7b8e9a68565eaf2d4ee82bacc95a5') in 0.0042325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/Sphere.physicsMaterial2D
-  artifactKey: Guid(f8ad3142686121f4d9ab377c50209366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Materials/PhysicMaterials/Sphere.physicsMaterial2D using Guid(f8ad3142686121f4d9ab377c50209366) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42bb46d829bca88d0091a8f7551ffc63') in 0.0040067 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick/Joystick_Stick.cs
-  artifactKey: Guid(af8d994b9049de449a8999510856cc4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick/Joystick_Stick.cs using Guid(af8d994b9049de449a8999510856cc4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e59911236c750e0682d02bada8e8dc4') in 0.003582 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Players/Player.prefab
-  artifactKey: Guid(80c60cf5ac1e2704881b247b9763e754) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Players/Player.prefab using Guid(80c60cf5ac1e2704881b247b9763e754) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '746f7d009f7c980ebab8f327464bd165') in 0.0120343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 2.asset
-  artifactKey: Guid(3f4b872136dc2604a86e308c23879f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/Levels/level 2.asset using Guid(3f4b872136dc2604a86e308c23879f61) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3386f8abbc19248641a6dd9349dcb6c') in 0.0048472 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/LoseUI.cs
-  artifactKey: Guid(0efc4bc44762bf6438f4ce3f6ceed5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/LoseUI.cs using Guid(0efc4bc44762bf6438f4ce3f6ceed5ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbcb9e5aac4bc7c7a93f809c4e4423a0') in 0.0040046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/barrel-1-explode.prefab
-  artifactKey: Guid(c1e13eeafe5289b49a1e7aeec2638da6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Particles/barrel-1-explode.prefab using Guid(c1e13eeafe5289b49a1e7aeec2638da6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ad651dc707c8d5d491b997d8e8e1837') in 0.0092228 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 26.png
-  artifactKey: Guid(b593bd733e3de6c42adbfe5bafb7fb87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 26.png using Guid(b593bd733e3de6c42adbfe5bafb7fb87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '582bc40c8190b42a8acebb497f570c04') in 0.0129076 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Input
-  artifactKey: Guid(19e385d59e298364c9bec13aec7c01ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Input using Guid(19e385d59e298364c9bec13aec7c01ac) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9cf5b33ba7d699caa5883e7df1bd915') in 0.0031862 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/Blade-Ground.prefab
-  artifactKey: Guid(f2a325eaf0d37854d938b080d60287aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Objects/Blade-Ground.prefab using Guid(f2a325eaf0d37854d938b080d60287aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84f781a49602a26ea16c46c608aa12fb') in 0.0083077 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/PlatformSlider.cs
-  artifactKey: Guid(55e31b39a794fb84983e9fe046d78d79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Gameplay/PlatformSlider.cs using Guid(55e31b39a794fb84983e9fe046d78d79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0389fa4d3e0b77f36ba5f677d723851d') in 0.0038757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 3.png
-  artifactKey: Guid(f9311ee6751937946afef3d78b171953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 3.png using Guid(f9311ee6751937946afef3d78b171953) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2234c4383c1f43b24046f734fe89ae7b') in 0.0115742 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick/JoystickButton.cs
-  artifactKey: Guid(cdc6add3a43b4ea4c9d6c8f4eee2e97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/Input/Joystick/JoystickButton.cs using Guid(cdc6add3a43b4ea4c9d6c8f4eee2e97e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbbbb92aa7cb08785be2cea7ccbbcc29') in 0.0036269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-chunk-1.png
-  artifactKey: Guid(cd05eb9a848fdff4ba9fdf0aead95aab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/wood-chunk-1.png using Guid(cd05eb9a848fdff4ba9fdf0aead95aab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e4d9b9daa226ed88c6a7dcd3a3ec8ca') in 0.0097293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/JumpingPad.prefab
-  artifactKey: Guid(b23cf97cccf8c334592b1b5d38304819) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/LevelElements/JumpingPad.prefab using Guid(b23cf97cccf8c334592b1b5d38304819) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '414799cba741a3c8f1927341d334609c') in 0.0086225 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 24.png
-  artifactKey: Guid(bd7c758838e04b74a9240f2730bbf6ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 24.png using Guid(bd7c758838e04b74a9240f2730bbf6ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbffa1e1d7aac5e568ad6481a222ddea') in 0.0128909 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 6.png
-  artifactKey: Guid(0b7d0beace8ed5d4bb1af524e646f343) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Art/Sprites/Gameplay/Asset 6.png using Guid(0b7d0beace8ed5d4bb1af524e646f343) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ced2045b228334e50f2bb6697cce6779') in 0.0154126 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels
-  artifactKey: Guid(fd7513ec8a5fe404697916ce23d14313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels using Guid(fd7513ec8a5fe404697916ce23d14313) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24c23438ed744ce8f1d8bd1e90b1b07f') in 0.003764 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000119 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-9.prefab
-  artifactKey: Guid(bad5ddfdc85a2bf47be7570429d61438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/Levels/level-9.prefab using Guid(bad5ddfdc85a2bf47be7570429d61438) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2a866adee4a3cff2387f029890665e0') in 0.0245343 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 254
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/ScriptableObjects/UIData.asset
-  artifactKey: Guid(40b9c63c75a54fd44b959e0e99aa8d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/ScriptableObjects/UIData.asset using Guid(40b9c63c75a54fd44b959e0e99aa8d41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9410964823b083de4ee6519fce8db8a4') in 0.0047775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Prefabs/UI/JoystickUI.prefab
-  artifactKey: Guid(feb33066d45903d4c9180136e445295f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Prefabs/UI/JoystickUI.prefab using Guid(feb33066d45903d4c9180136e445295f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7aa6e64f63d002dca60a6a8c58623772') in 0.0060158 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/BallPuzzlePlatformer 2D/Scripts/UI/InGameUI.cs
-  artifactKey: Guid(21194ea610a6626449d560823c85f4e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/BallPuzzlePlatformer 2D/Scripts/UI/InGameUI.cs using Guid(21194ea610a6626449d560823c85f4e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92404477659423dcf2b2caa16fe18bc3') in 0.0034151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 871ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (14ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (58.5 KB). Loaded Objects now: 657.
-Memory consumption went from 65.4 MB to 65.3 MB.
-Total: 6.378500 ms (FindLiveObjects: 0.054100 ms CreateObjectMapping: 0.008700 ms MarkObjects: 6.175200 ms  DeleteObjects: 0.138900 ms)
+Unloading 443 unused Assets / (38.1 KB). Loaded Objects now: 1042.
+Memory consumption went from 138.9 MB to 138.9 MB.
+Total: 5.524100 ms (FindLiveObjects: 0.131000 ms CreateObjectMapping: 0.025900 ms MarkObjects: 5.229600 ms  DeleteObjects: 0.135400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.395 seconds
+- Loaded All Assemblies, in  0.377 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.498 seconds
-Domain Reload Profiling: 893ms
-	BeginReloadAssembly (293ms)
+- Finished resetting the current domain, in  0.439 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (48ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (15ms)
-		LoadAssemblies (218ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (28ms)
+		LoadAssemblies (192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (10ms)
+		AnalyzeDomain (19ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (3ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (499ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (440ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (374ms)
+		SetupLoadedEditorAssemblies (322ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (126ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (1.0 KB). Loaded Objects now: 657.
-Memory consumption went from 64.5 MB to 64.5 MB.
-Total: 5.926700 ms (FindLiveObjects: 0.061800 ms CreateObjectMapping: 0.010000 ms MarkObjects: 5.807000 ms  DeleteObjects: 0.046300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 92 unused Assets / (3.1 KB). Loaded Objects now: 687.
-Memory consumption went from 64.9 MB to 64.9 MB.
-Total: 4.914000 ms (FindLiveObjects: 0.061600 ms CreateObjectMapping: 0.008200 ms MarkObjects: 4.801300 ms  DeleteObjects: 0.041600 ms)
+Unloading 443 unused Assets / (65.0 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.049700 ms (FindLiveObjects: 0.104300 ms CreateObjectMapping: 0.024600 ms MarkObjects: 4.768200 ms  DeleteObjects: 0.150700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.391 seconds
+- Loaded All Assemblies, in  0.386 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.454 seconds
+- Finished resetting the current domain, in  0.459 seconds
 Domain Reload Profiling: 845ms
-	BeginReloadAssembly (272ms)
+	BeginReloadAssembly (263ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (32ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (35ms)
 		LoadAssemblies (193ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (22ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (8ms)
-			BuildScriptInfoCaches (5ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (454ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (13ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (322ms)
+		SetupLoadedEditorAssemblies (335ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (116ms)
-			ProcessInitializeOnLoadAttributes (154ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (54.3 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 4.651700 ms (FindLiveObjects: 0.103100 ms CreateObjectMapping: 0.023500 ms MarkObjects: 4.383800 ms  DeleteObjects: 0.140100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.400 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.445 seconds
+Domain Reload Profiling: 845ms
+	BeginReloadAssembly (281ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (31ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (445ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (160ms)
 			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
@@ -879,10 +424,208 @@ Domain Reload Profiling: 845ms
 		AwakeInstancesAfterBackupRestoration (8ms)
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 444 unused Assets / (160.9 KB). Loaded Objects now: 1038.
-Memory consumption went from 67.3 MB to 67.1 MB.
-Total: 5.346400 ms (FindLiveObjects: 0.111000 ms CreateObjectMapping: 0.023100 ms MarkObjects: 4.978800 ms  DeleteObjects: 0.232100 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (36.0 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.192100 ms (FindLiveObjects: 0.102600 ms CreateObjectMapping: 0.022900 ms MarkObjects: 4.927700 ms  DeleteObjects: 0.137300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (37ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (45.7 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.539500 ms (FindLiveObjects: 0.101700 ms CreateObjectMapping: 0.023400 ms MarkObjects: 5.278200 ms  DeleteObjects: 0.134800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 872ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (27ms)
+		LoadAssemblies (191ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (366ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (62.2 KB). Loaded Objects now: 1042.
+Memory consumption went from 138.9 MB to 138.9 MB.
+Total: 6.785600 ms (FindLiveObjects: 0.108400 ms CreateObjectMapping: 0.028100 ms MarkObjects: 6.407600 ms  DeleteObjects: 0.239400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.386 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 838ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (29ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (338ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (160ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (43.9 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.632400 ms (FindLiveObjects: 0.154000 ms CreateObjectMapping: 0.033500 ms MarkObjects: 5.304400 ms  DeleteObjects: 0.138500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.467 seconds
+Domain Reload Profiling: 858ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (28ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (468ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (345ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (43.8 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.058900 ms (FindLiveObjects: 0.106300 ms CreateObjectMapping: 0.024000 ms MarkObjects: 4.790400 ms  DeleteObjects: 0.137400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -890,78 +633,147 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.379 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for WindowsStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.445 seconds
-Domain Reload Profiling: 824ms
-	BeginReloadAssembly (270ms)
+- Finished resetting the current domain, in  0.484 seconds
+Domain Reload Profiling: 863ms
+	BeginReloadAssembly (266ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (27ms)
-		LoadAssemblies (200ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (30ms)
+		LoadAssemblies (194ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (18ms)
 			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (10ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (446ms)
+	FinalizeReload (485ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (317ms)
+		SetupLoadedEditorAssemblies (344ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (41.0 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 5.511400 ms (FindLiveObjects: 0.124200 ms CreateObjectMapping: 0.025800 ms MarkObjects: 5.204400 ms  DeleteObjects: 0.155500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.396 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.510 seconds
+Domain Reload Profiling: 906ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (29ms)
+		LoadAssemblies (206ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (132ms)
+			ProcessInitializeOnLoadAttributes (183ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (44.8 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 4.961900 ms (FindLiveObjects: 0.101100 ms CreateObjectMapping: 0.022700 ms MarkObjects: 4.694700 ms  DeleteObjects: 0.141900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.382 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.464 seconds
+Domain Reload Profiling: 844ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (30ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (464ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (339ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 444 unused Assets / (150.4 KB). Loaded Objects now: 1038.
-Memory consumption went from 67.4 MB to 67.3 MB.
-Total: 5.445500 ms (FindLiveObjects: 0.094300 ms CreateObjectMapping: 0.021200 ms MarkObjects: 5.108600 ms  DeleteObjects: 0.220000 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 443 unused Assets / (15.6 KB). Loaded Objects now: 1042.
+Memory consumption went from 139.0 MB to 138.9 MB.
+Total: 4.573700 ms (FindLiveObjects: 0.100000 ms CreateObjectMapping: 0.023200 ms MarkObjects: 4.324200 ms  DeleteObjects: 0.124800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
