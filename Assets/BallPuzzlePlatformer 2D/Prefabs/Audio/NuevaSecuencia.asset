@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 012fbc268a69e4946a23822eeb7db9fd, type: 3}
+  m_Name: NuevaSecuencia
+  m_EditorClassIdentifier: Assembly-CSharp::BallPuzzlePlatformer2D.SecuenciaMusical
+  nombreSecuencia: Nueva secuencia
+  beatsPorCompas: 4
+  notas:
+  - nombre: A
+    octava: 4
+    inicioBeats: 0
+    duracionBeats: 1
+    velocity: 1
+    esSilencio: 0
+  - nombre: D
+    octava: 4
+    inicioBeats: 1
+    duracionBeats: 1
+    velocity: 5
+    esSilencio: 0
