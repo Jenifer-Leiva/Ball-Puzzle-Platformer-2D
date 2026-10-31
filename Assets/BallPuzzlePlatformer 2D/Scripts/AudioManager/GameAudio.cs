@@ -8,9 +8,6 @@ namespace View.Control
         private const string MusicStatusKey = "music.status";
         private const string SfxStatusKey = "sfx.status";
 
-        private const float MusicVolume = 0.5f;
-
-        public AudioClip[] MusicClips;
         public AudioClip[] SfxClips;
 
         private AudioSource _musicSource;
@@ -32,9 +29,6 @@ namespace View.Control
 
                 if (_musicSource == null)
                     _musicSource = GetComponent<AudioSource>();
-
-                if (_musicSource != null)
-                    _musicSource.volume = value ? MusicVolume : 0f;
 
                 PlayerPrefs.SetInt(MusicStatusKey, value ? 0 : 1);
             }
@@ -74,20 +68,18 @@ namespace View.Control
             SfxEnabled = PlayerPrefs.GetInt(SfxStatusKey) == 0;
         }
 
-        public void Play(GameClip clip, float delay = 0f, float volume = 1.5f, float startTime = 0f)
+       public void Play(GameClip clip, float delay = 0f, float volume = 1.5f, float startTime = 0f)
         {
-            if (!enabled || !SfxEnabled)
-            {
-                return;
-            }
+            if (!enabled || !SfxEnabled) return;
 
-            var audioClip = SfxClips[(uint)clip];
-            if (audioClip == null)
-            {
-                return;
-            }
+            AudioClip audioClip = SfxClips[(uint)clip];
 
-            AudioSource source = gameObject.AddComponent<AudioSource>();
+            if (audioClip == null) return;
+
+            //  objeto independiente  efecto de sonido
+            GameObject sfxObject = new GameObject("SFX_" + clip);
+
+            AudioSource source = sfxObject.AddComponent<AudioSource>();
 
             source.clip = audioClip;
             source.volume = volume;
@@ -96,37 +88,11 @@ namespace View.Control
 
             source.PlayDelayed(delay);
 
-            Destroy(source, delay + audioClip.length - source.time + 0.1f);
+            
+            Destroy(sfxObject, delay + audioClip.length - source.time + 0.1f);
         }
 
-        public void Play(MusicClip clip, float fadeTime = 0f, float delay = 0f, float volume = 0.5f, float startTime = 0f)
-        {
-            if (!enabled || !MusicEnabled)
-            {
-                return;
-            }
-
-            var audioClip = MusicClips[(uint)clip];
-
-            _musicSource = gameObject.AddComponent<AudioSource>();
-
-            _musicSource.clip = audioClip;
-            _musicSource.volume = 0f;
-            _musicSource.loop = true;
-            _musicSource.spatialBlend = 0f;
-            _musicSource.time = Mathf.Clamp(startTime, 0f, audioClip.length);
-
-            _musicSource.PlayDelayed(delay);
-
-
-            _musicVolumeTweenId = LeanTween.value(0f, volume, fadeTime)
-                .setDelay(delay)
-                .setEase(LeanTweenType.easeInOutSine)
-                .setOnUpdate(v => {
-                    _musicSource.volume = v;
-                })
-                .id;
-        }
+       
 
         private void StartEffects()
         {
@@ -149,8 +115,15 @@ namespace View.Control
         {
             _proceduralMusic = GetComponent<ProceduralMusic>();
 
+            if (_proceduralMusic == null)
+            {
+                Debug.LogError("NO SE ENCONTRÓ PROCEDURAL MUSIC");
+                return;
+            }
+
             if (_proceduralMusic != null)
             {
+            
                 _musicSource = GetComponent<AudioSource>();
 
                 if (_musicSource == null)

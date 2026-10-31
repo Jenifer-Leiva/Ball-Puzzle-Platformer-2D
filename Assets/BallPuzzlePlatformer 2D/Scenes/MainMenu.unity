@@ -308,6 +308,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1819884327}
   - component: {fileID: 1819884326}
+  - component: {fileID: 1819884329}
+  - component: {fileID: 1819884328}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -327,7 +329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9906449e7c7952489ebc03a9338d572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::View.Control.GameAudio
-  MusicClips: []
   SfxClips: []
 --- !u!4 &1819884327
 Transform:
@@ -344,6 +345,299 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1819884328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819884325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a62b5ca9c0fd543bf931685c359b39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ProceduralMusic
+  wavetableLoader: {fileID: 0}
+  tempo: 80
+  agogo:
+    activo: 1
+    frecuencia: 903
+    frecuenciaSecundaria: 2100
+    volumenSecundario: 0.12
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 80
+      sustainLevel: 0.05
+      sustainMs: 160
+      releaseMs: 180
+    volumen: 0.2
+    nivelRuido: 0
+    reverberacion: 0
+    envolvente:
+      attackMs: 20
+      decayMs: 63
+      sustainLevel: 0
+      sustainMs: 160
+      releaseMs: 0
+  surdo:
+    activo: 1
+    frecuencia: 100
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.6
+    nivelRuido: 0.05
+    reverberacion: 0.4
+    envolvente:
+      attackMs: 10
+      decayMs: 36
+      sustainLevel: 0.2
+      sustainMs: 210
+      releaseMs: 0
+  repique:
+    activo: 1
+    frecuencia: 756
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0.1
+    reverberacion: 0.4
+    envolvente:
+      attackMs: 4
+      decayMs: 94
+      sustainLevel: 0.1
+      sustainMs: 70
+      releaseMs: 34
+  tamborim:
+    activo: 1
+    frecuencia: 756
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0.1
+    reverberacion: 0.4
+    envolvente:
+      attackMs: 4
+      decayMs: 94
+      sustainLevel: 0.1
+      sustainMs: 70
+      releaseMs: 34
+  cuica:
+    activo: 1
+    frecuencia: 283
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0
+    reverberacion: 0.4
+    envolvente:
+      attackMs: 75
+      decayMs: 51
+      sustainLevel: 0.5
+      sustainMs: 0
+      releaseMs: 77
+  silbato:
+    activo: 1
+    frecuencia: 1997
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0
+    reverberacion: 0
+    envolvente:
+      attackMs: 11
+      decayMs: 4
+      sustainLevel: 0.6
+      sustainMs: 151
+      releaseMs: 91
+  caixa:
+    activo: 1
+    frecuencia: 330
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0.1
+    reverberacion: 0.4
+    envolvente:
+      attackMs: 2
+      decayMs: 60
+      sustainLevel: 0
+      sustainMs: 190
+      releaseMs: 0
+  chocalho:
+    activo: 1
+    frecuencia: 1975.53
+    frecuenciaSecundaria: 0
+    volumenSecundario: 0.1
+    envolventeSecundaria:
+      attackMs: 10
+      decayMs: 50
+      sustainLevel: 0.5
+      sustainMs: 100
+      releaseMs: 20
+    volumen: 0.2
+    nivelRuido: 0.8
+    reverberacion: 0.2
+    envolvente:
+      attackMs: 5
+      decayMs: 43
+      sustainLevel: 0.1
+      sustainMs: 18
+      releaseMs: 20
+  introSeconds: 2.5
+  introVolume: 1.2
+  introReverb: 0.4
+  introBaseFrequency: 440
+  introFlutterRate: 5
+  introFlutterDepth: 0.05
+  useSongStructure: 1
+  wavetableIndex: 0
+  harmonicCount: 6
+  harmonicLevels:
+  - 1
+  - 0.5
+  - 0.25
+  - 0.15
+  - 0.1
+  - 0.08
+  - 0.05
+  - 0.04
+  - 0.03
+  - 0.02
+  kickVolume: 0.3
+  hatVolume: 0.035
+--- !u!82 &1819884329
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819884325}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2051838429
 GameObject:
   m_ObjectHideFlags: 0
